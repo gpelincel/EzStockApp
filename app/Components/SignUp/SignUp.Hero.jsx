@@ -1,4 +1,4 @@
-import Form from './Form';
+import Form from './SignUp.Form';
 import background from './../../Assets/background-signup.jpg';
 
 export default function Hero() {

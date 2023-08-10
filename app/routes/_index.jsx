@@ -6,11 +6,13 @@ export const meta = () => {
 };
 
 import Login from "./../Pages/Login";
+import { Outlet } from "@remix-run/react";
 
 export default function Index() {
   return (
     <div>
       <Login></Login>
+      <Outlet></Outlet>
     </div>
   );
 }

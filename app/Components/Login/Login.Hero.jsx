@@ -1,4 +1,4 @@
-import Form from './Form';
+import Form from './Login.Form';
 import background from './../../Assets/background-login.jpg';
 import logo from './../../Assets/Logo-branca.png';
 

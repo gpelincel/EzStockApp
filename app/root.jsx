@@ -7,7 +7,9 @@ import {
   Outlet,
   Scripts,
   ScrollRestoration,
+  Router, Route
 } from "@remix-run/react";
+
 
 import stylesheet from "~/style/tailwind.css";
 
@@ -18,11 +20,10 @@ export const links = () => [
 
 export default function App() {
   return (
-    <html lang="pt-br" /*data-theme="light"*/>
+    <html lang="pt-br">
       <head>
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width,initial-scale=1" />
-        <script src="https://kit.fontawesome.com/bdcc87c8b0.js" crossOrigin="anonymous"></script>
         <Meta />
         <Links />
       </head>
