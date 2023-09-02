@@ -14,7 +14,7 @@ export default function Feature(props) {
     const icon = getIcon();
 
     return (
-        <a className="feature" href="/admin/stock">
+        <a className="feature" href="/stock">
             <div className="bg-base-300 text-base-content flex items-center flex-col p-7 rounded shadow-lg hover:bg-primary-content hover:text-neutral transition ease-in delay-100">
                 {icon}
                 <h1>{props.featureName}</h1>

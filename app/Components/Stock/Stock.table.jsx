@@ -19,17 +19,15 @@ export default function Table() {
 
     if (isLoading) {
         return (
-            <div className="flex items-center justify-center w-full">
-                <span className="loading loading-spinner loading-lg"></span>
-            </div>
+            <span className="loading loading-spinner loading-lg"></span>
         );
     }
 
     console.log(products);
 
     return (
-        <div className="overflow-x-auto">
-            <table className="table table-xs">
+        <div className="overflow-x-auto mt-10 bg-neutral color-neutral-content rounded-lg" style={{height: 60 + "vh"}}>
+            <table className="table table-sm table-zebra table-pin-rows">
                 <thead>
                     <tr>
                         <th></th>
@@ -39,6 +37,8 @@ export default function Table() {
                         <th>Preço de custo</th>
                         <th>Preço de venda</th>
                         <th>Validade</th>
+                        <th></th>
+                        <th></th>
                     </tr>
                 </thead>
                 <tbody>
