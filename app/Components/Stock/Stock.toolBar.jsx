@@ -5,10 +5,9 @@ export default function ToolBar() {
         <div className="toolBar flex w-4/5">
             <ul className="menu bg-base-200 lg:menu-horizontal rounded-box w-screen flex justify-center">
                 <li>
-                    <a>
-                        <FaCirclePlus></FaCirclePlus>
-                        Cadastrar
-                    </a>
+                    <label for="my_modal_6" class="btn"><FaCirclePlus></FaCirclePlus>
+                        <p>Cadastrar</p>
+                    </label>
                 </li>
                 <li>
                     <a>
