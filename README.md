@@ -1,40 +1,26 @@
-> **Warning**  
-> The `@remix-run/vercel` runtime adapter has been deprecated in favor of out of
-> the box Vercel functionality and will be removed in Remix v2.  
-> This means you don't have to use the Vercel template & can just use the Remix
-> template instead.
 
-# Welcome to Remix!
+![Logo](https://github.com/gpelincel/EzStockAPI/assets/87822398/d5f7e11e-fc15-4cac-8fbd-99f94950c1a0)
 
-- [Remix Docs](https://remix.run/docs)
+# EzStockAPI
 
-## Deployment
+API for modern POS (point of selling) system 💲📊
 
-After having run the `create-remix` command and selected "Vercel" as a deployment target, you only need to [import your Git repository](https://vercel.com/new) into Vercel, and it will be deployed.
 
-If you'd like to avoid using a Git repository, you can also deploy the directory by running [Vercel CLI](https://vercel.com/cli):
+![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge)
 
-```sh
-npm i -g vercel
-vercel
-```
+![Badge licença](http://img.shields.io/static/v1?label=LICENSE&message=MIT&coor=F0F&style=for-the-badge)
 
-It is generally recommended to use a Git repository, because future commits will then automatically be deployed by Vercel, through its [Git Integration](https://vercel.com/docs/concepts/git).
+![Badge laravel](http://img.shields.io/static/v1?label=&message=LARAVEL&color=000&style=for-the-badge&logo=laravel)
 
-## Development
+![Badge docker](http://img.shields.io/static/v1?label=&message=DOCKER&color=0db7ed&style=for-the-badge&logo=docker&logoColor=white)
 
-To run your Remix app locally, make sure your project's local dependencies are installed:
 
-```sh
-npm install
-```
 
-Afterwards, start the Remix development server like so:
 
-```sh
-npm run dev
-```
 
-Open up [http://localhost:3000](http://localhost:3000) and you should be ready to go!
+## Features
 
-If you're used to using the `vercel dev` command provided by [Vercel CLI](https://vercel.com/cli) instead, you can also use that, but it's not needed.
+- Products registration 🗃️
+- Inventory control 📦
+- Sales control 💹
+
