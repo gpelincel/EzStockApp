@@ -4,7 +4,8 @@
 
 /* width */
 ::-webkit-scrollbar {
-    width: 5px;
+    width: 0.5em;
+    height: 0.5em;
 }
   
 /* Track */

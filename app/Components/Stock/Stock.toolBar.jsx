@@ -5,21 +5,22 @@ export default function ToolBar() {
         <div className="toolBar flex w-4/5">
             <ul className="menu bg-base-200 lg:menu-horizontal rounded-box w-screen flex justify-center">
                 <li>
-                    <label for="my_modal_6" class="btn"><FaCirclePlus></FaCirclePlus>
-                        <p>Cadastrar</p>
+                    <label htmlFor="register" className="btn">
+                        <FaCirclePlus></FaCirclePlus>
+                        Cadastrar
                     </label>
                 </li>
                 <li>
-                    <a>
+                    <label htmlFor="" className="btn flex items-center">
                         <FaFilter></FaFilter>
-                        Filtrar
-                    </a>
+                        <p>Filtrar</p>
+                    </label>
                 </li>
                 <li>
-                    <a>
+                    <label htmlFor="" className="btn flex items-center">
                         <FaFileExcel></FaFileExcel>
-                        Exportar
-                    </a>
+                        <p>Exportar</p>
+                    </label>
                 </li>
             </ul>
         </div>

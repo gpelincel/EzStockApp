@@ -23,10 +23,8 @@ export default function Table() {
         );
     }
 
-    console.log(products);
-
     return (
-        <div className="overflow-x-auto mt-10 bg-neutral color-neutral-content rounded-lg" style={{height: 60 + "vh"}}>
+        <div className="overflow-x-auto mt-10 bg-neutral color-neutral-content rounded-lg" style={{height: 60 + "vh", maxWidth: 80 + "vw"}}>
             <table className="table table-sm table-zebra table-pin-rows">
                 <thead>
                     <tr>
