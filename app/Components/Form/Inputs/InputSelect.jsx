@@ -9,7 +9,7 @@ export default function InputSelect(props) {
                 <option defaultValue={null}>Selecione</option>
                 {props.options.map(option => {
                     return (
-                        <option value={option.value}>{option.name}</option>
+                        <option key={option.id} value={option.value}>{option.name}</option>
                     )
                 })}
             </select>

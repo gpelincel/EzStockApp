@@ -3,10 +3,12 @@ import { FaClipboardList, FaCartPlus, FaRuler, FaSackDollar, FaCopyright, FaTruc
 
 export default function Register() {
     let options = [{
+        "id": 1,
         "name": "Fornecedor1",
         "value": 1
     },
     {
+        "id": 2,
         "name": "Fornecedor2",
         "value": 2
     }];
