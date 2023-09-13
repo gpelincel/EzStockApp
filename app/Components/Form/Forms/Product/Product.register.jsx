@@ -1,4 +1,4 @@
-import { InputText, InputNumber, InputSelect } from "../../Inputs";
+import { InputText, InputNumber, InputSelect } from "../../inputs";
 import { FaClipboardList, FaCartPlus, FaRuler, FaSackDollar, FaCopyright, FaTruckFast } from "react-icons/fa6";
 
 export default function Register() {
