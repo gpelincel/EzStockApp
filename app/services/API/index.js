@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const instance = axios.create({
-    baseURL: 'http://localhost:8989/api/',
+    baseURL: 'https://ez-stock-gpelincel.vercel.app/api/api/',
     headers: {
         "Access-Control-Allow-Origin": "*",
         'Content-Type': 'application/json',
